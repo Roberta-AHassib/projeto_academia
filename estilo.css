@@ -1,0 +1,193 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: "Calibri", Helvetica, Arial; /* fonte do conteúdo, as aspas dupla são para identificar que a fonte é a primária */
+	padding-top: 70px;
+}
+
+header{/* Estilo do Cabeçalho */
+	width:100%;
+	height:70px;
+	background-color: #e28f2e;
+	position: fixed;
+	top: 0;
+	
+}
+
+h1{
+	font-size: 24px;
+}
+
+/* ##### MENU ##### */
+
+.logo{
+	margin-left: 15px;
+	margin-top: 10px;
+	margin-right: 20px;
+	float: left;
+}
+
+nav{
+	height: 70px;
+	font-size: 19px;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav li{
+	float: left;
+	margin-left: 8px;
+	color: white;
+	font-weight: bold;
+	line-height:3.7;
+}
+
+nav ul .BOTAO:hover{/*config mouse sobre o botão*/
+	background-color: rgba(255,255,255,0.2);
+
+}
+
+/*nav ul.BOATAO:active{/*config botão qdo clicar*/
+
+/* ##### CONTEÚDO #####*/
+main{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+
+article{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: justify;
+
+}
+
+.fotoshome{
+	width: 50%;
+	float: left;
+	margin: 10px 0px;
+	text-align: center;
+}
+
+/*#### RODAPÉ #####*/
+
+footer{
+	clear: both;
+	width: 100%;
+	background-color: #e28f2e;
+	color: white;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+footer figure img{
+	margin: 10px 5px;/*10px 5px 10px 5px usamos abreviado caso os calores se repitam*/
+}
+
+
+/* ##### SOBRE ####*/
+.fotossobre{
+	width: 20%;
+	height: 150px;
+	float: left;
+	
+}
+
+.asobre{
+	width: 80%;
+	height: 150px;
+	float: left;
+	padding-top: 10px;
+}
+
+.fotossobre1{
+	width: 20%;
+	height: 150px;
+	float: right;
+	text-align: right;
+}
+.asobre1{
+	width: 80%;
+	height: 150px;
+	float: right;
+	padding-top: 10px;	
+}
+
+/* ##### CONTATO #### */
+
+#info{
+	width: 370px;
+	float: left;
+}
+
+#formulario{
+	width: 600px;
+	float: right;
+}
+
+#fomrulario label{
+	font-size: 16px;
+}
+
+#formulario div input{
+	background-color: #fae5cc;
+	border: 1px solid #f2c085;
+	width: 600px;
+	height: 25px;
+}
+
+#formulario div textarea{
+	background-color: #fae5cc;
+	border: 1px solid #f2c085;
+	width: 600px;
+	height: 60px;
+	resize: none;
+}
+
+#formulario .BOTAO{
+	width: 90px;
+	height: 30px;
+	font-size: 16px;
+	color: white;
+	float: right;
+	margin-left: 15px;
+	margin-top: 12px;
+	margin-bottom: 15px;
+}
+
+#formulario #ENVIAR{
+	background-color: #52883f;
+	border: 1px solid: #8bac7f;
+	border-radius: 8px;
+}
+
+#formulario #LIMPAR{
+	background-color: #c73636;
+	border: 1px solid: #b89898;
+	border-radius: 8px;
+}
+
+/* ##### OBRIGADO #####*/
+#formulario h2{
+	font-size: 22px;
+	color: #e28f2e;
+	text-align: center;
+	margin-top: 35px;
+}
+
+/* ##### GALERIA #####*/
+
+.galeria{
+	text-align: center;
+	margin: 10px;
+}
+
+.galeria img{
+	padding: 15px;
+}
